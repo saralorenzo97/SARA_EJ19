@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>copialibro</title>
+</head>
+<style>
+    /*ejemplo1*/
+        
+
+/*ejemplo2*/
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    ul li{
+        margin-bottom: 10px;
+        list-style: none;
+    }
+
+    ul li a{
+        font-family: Arial;
+        font-size: 24px;
+        text-decoration: none;
+        float: left;
+        padding: 10px;
+        color: #7b7b7b;
+        font-weight: lighter;
+    }
+
+    ul li a:hover{
+        color: #5b0303;
+        text-decoration: underline;
+    }
+
+    ul li.itemseleccionado a{
+        color: #000;
+    }
+</style>
+<body>
+    <!--ejemplo1-->
+    <h1>Carta</h1>
+    <ul>
+        <li>Cazón en adobo</li>
+        <li>Ternera</li>
+        <li>Mojama de barbate</li>
+    </ul>
+
+    <p>Carnes</p>
+    <ul>
+        <li>Carrillada</li>
+        <li>Ternera</li>
+        <li>Presa ibérica</li>
+    </ul>
+
+    <h2>Postres</h2>
+    <ul>
+        <li>Café</li>
+        <li>Tarta</li>
+        <li>Fruta</li>
+    </ul> 
+
+<hr>
+
+<ul class="pestanas">
+    <li class="itemseleccionado"><a href="#">Inicio</a></li>
+     <li class="item"><a href="#">Álbumes</a></li>
+     <li class="item"><a href="#">Vídeos</a></li>
+     <li class="item"><a href="#">Blog</a></li>
+     <li class="item"><a href="#">Sobre el autor</a></li>
+</ul>
+
+
+
+
+</body>
+</html>
